@@ -47,7 +47,7 @@ void main(){
   } on IntegerDivisionByZeroException {
     print("Error is : ${IntegerDivisionByZeroException}");
   } finally {
-    print("This will always be exeuted");
+    print("This will always be executed");
   }
 
 }
